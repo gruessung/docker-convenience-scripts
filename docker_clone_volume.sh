@@ -29,13 +29,13 @@ then
 fi
 
 #Now check if the destinatin volume name does not yet exist
-docker volume inspect $2 > /dev/null 2>&1
+#docker volume inspect $2 > /dev/null 2>&1
 
-if [ "$?" = "0" ]
-then
-        echo "The destination volume \"$2\" already exists"
-        exit
-fi
+#if [ "$?" = "0" ]
+#then
+#        echo "The destination volume \"$2\" already exists"
+#        exit
+#fi
 
 
 
